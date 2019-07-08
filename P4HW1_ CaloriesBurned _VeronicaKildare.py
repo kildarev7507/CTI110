@@ -7,7 +7,8 @@
 # and 45 minute treadmill workout. It will display the total amount
 # of calories burned to the user.
 
-
-for time in [20, 35, 45]:
-    calories = 5 * time
-    print('In', time, 'minutes you burned: ', calories)
+def main():
+    for time in [20, 35, 45]:
+        calories = 5 * time
+        print('In', time, 'minutes you burned: ', calories)
+main()
